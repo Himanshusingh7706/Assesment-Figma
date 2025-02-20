@@ -5,7 +5,7 @@ import vector from '../assets/images/vector.png';
 
 const Header = () => {
     return (
-        <div className="bg-white shadow-md py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div className="bg-white opacity-85  shadow-sm py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center fixed top-0 left-0 w-full z-50">
             {/* Left Side - Logos */}
             <div className="flex items-center space-x-3 h-[41px]">
                 <img src={image1} alt="Image 1" className="h-8" />
